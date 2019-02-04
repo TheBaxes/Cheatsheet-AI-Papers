@@ -1,10 +1,11 @@
 # ImageNet: A large-scale hierarchical image database
 
-We say that a machine learning or a computer vision task is a success, when this is capable of perform good enough in a bunch of different scenarios. But this success relies on the dataset used to train a model, therefore, our focus is not longer just the algorithm but the data, and this is where *ImageNet* comes.
+We say that a machine learning or a computer vision task is a success, when it is capable of perform good enough in a bunch of different scenarios. But this success relies on the dataset used to train a model, therefore, our focus is not longer just the algorithm but the data, and this is where *ImageNet* comes.
 
 *ImageNet* is a hierarchical database to store full resolution images built on the structure of [WordNet](https://wordnet.princeton.edu/) ,with the aim of being a *"critical resource for developing advanced, large-scale content-based image search and image understanding, as well as for providing critical training and benchmarking data for such algorithms"*. 
 
-*ImageNet* in its current state offers 21841 noun synsets (synset stands for *"synonym set"*) indexed and 14,197,122 images in total, with the aim to provide on average 500-1000 images to illustrate each synset. The image below shows a snapshot of two branches:
+*ImageNet* in its current state offers 21841 noun synsets (synset stands for *"synonym set"*) indexed and 14,197,122 images in total, with the aim to provide on average 500-1000 images to illustrate each synset. The following image shows a snapshot of two branches:
+
 ![alt text](./images/snapshot_of_imagenet.png)
 
 #### Scale and Hierarchy
@@ -23,6 +24,7 @@ Within a synset, each category contains a considerable number of images, which m
 
 ImageNet guarantees that computational vision tasks will be developed on a sufficiently diverse data set, so, objects in images should have variable appearances, positions, view points, poses as well as background clutter and occlusions.
 They deal with this problem in a fascinating way, which is, computing the average image of each synset and measure lossless JPG file size, with the idea that a synset with diversity images will result in a blurried average image, therefore its size should be smaller than a synset with less diversity that contains a more structured average image.
+
 ![alt text](./images/caltechVSimagenet.png)
 
 #### Exciting applications
