@@ -16,6 +16,11 @@ Now, we want to insist if the unknown vector is a positive example or a negative
 
 $ \sum_{\forall i}{x_i^{2}} $
 
+\begin{align}
+\dot{x} & = \sigma(y-x) \\
+\dot{y} & = \rho x - y - xz \\
+\dot{z} & = -\beta z + xy
+\end{align}
 
 
 
