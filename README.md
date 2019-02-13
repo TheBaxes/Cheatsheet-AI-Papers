@@ -12,7 +12,7 @@ This is a table with the names of the papers currently being read in the course,
 
 | Week | Paper                                                                                         | Authors|
 | ---- | --------------------------------------------------------------------------------------------- | ------ |
-| 1    | [ImageNet: A large-scale hierarchical image database.](pages/week1/imagenet.md)               | -      |
+| 1    | [ImageNet: A large-scale hierarchical image database.](pages/week1/imagenet.md)               | Hassler|      
 | 1    | [Gradient-based learning applied to document recognition. Ch. I-III](pages/week1/lenet1-3.md) | -      |
-| 2    | [A Training Algorithm for Optimal Margin Classifiers.](pages/week2/svm.md)                    | -      |
+| 2    | [A Training Algorithm for Optimal Margin Classifiers.](pages/week2/svm.md)                    | Hassler|
 | 2    | [Histograms of Oriented Gradients for Human Detection.](pages/week2/histograms.md)            | -      |
