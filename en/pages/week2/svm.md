@@ -20,7 +20,7 @@ That can be expressed as follow for an example in the gutters:
 
 <div style="text-align:center"><img src ="http://latex.codecogs.com/gif.latex?%5CLARGE%20Y%28W%20*%20%5Cvec%7BX%7D%20&plus;%20b%29%20%3D%201%20%5Chspace%7B10mm%7D%20%281%29"/></div>
 
-So far, we've defined a way to classify whether a example is a positive one or a negative one, also,we come up with a equation that defines the _support vector_ or a example inside the gutter.
+So far, we've defined a way to classify whether an example is a positive one or a negative one, also,we come up with a equation that defines the _support vector_ or an example inside the gutter.
 
 Now, lets see the gutter width and how can be expressed. Regarding that **W** is a vector perpendicular to the street the following image explains the intuiton of the gutter.
 
@@ -54,11 +54,11 @@ In the dual space, the decision functions are of the form:
 <div style="text-align:center"><img src ="http://latex.codecogs.com/gif.latex?%5Clarge%20%5Csum_%7Bi%3D1%7D%5E%7Bp%7D%20%5Calpha_i%20K%28X_i%2C%20%5Cvec%7BX%7D%29%20&plus;b%5D
 "/></div>
 
-The coeficients *alpha* are the parameters to be adjusted and the **X_i** are the training examples. The function K is a predefined kernel that allows the algorithm to learn decision boundaries in higher dimensions and I don't need to worry about any transformation because this kernel function will return a scalar obtained by the dot product in some space. If you noticed the form of the dual space has the same spirit explained in the intuiton above and the Kernel function doesn't modify anything at all.
+The coeficients *alpha* are the parameters to be adjusted and the **X_i** are the training examples. The function K is a predefined kernel that allows the algorithm to learn decision boundaries in higher dimensions and there is not need to worry about some transformation because this kernel function will return a scalar obtained by the dot product in some space. If you noticed the form of the dual space has the same spirit explained in the intuiton above and the Kernel function doesn't modify anything at all.
 
 The kernel trick applies transformation in the input data as follow:
 
-<div style="text-align:center"><img src ="./images/kerneltrick.jpeg"/></div>
+<div style="text-align:center"><img src ="./images/kerneltrick.jpeg" width=700 height=500 /></div>
 
 Some famous kernels are: 
 
