@@ -72,6 +72,5 @@ Some famous kernels are:
 
 * Another benefit of the maximum margin objective is its insensitivity to small changes of the parameters w or *alpha* . Since the decision function is a linear function of w in the direct space,and of *alpha* in the dual space, the probability of misclassications due to parameter variations of the components of these vectors is minimized for maximum margin.
 
-
-
+[_Author: HasslerC_](https://github.com/hasslercastro)
 

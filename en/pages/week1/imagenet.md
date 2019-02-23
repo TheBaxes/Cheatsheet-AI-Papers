@@ -42,6 +42,8 @@ Create this structured database for images allows performing computational visio
 
 Imagenet is the beginning of a centralized handy site with clean and bias-free data that becomes a useful resource for computational vision tasks, and cientific benchmarking. 
 
+[_Author: HasslerC_](https://github.com/hasslercastro)
+
 ## For further details
 
 Visit: https://ieeexplore.ieee.org/document/5206848
